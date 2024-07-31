@@ -1,13 +1,14 @@
 .planet{
     background-size: cover;
 }
-#earth .planet            { 
+
+#earth .planet{ 
     background-image: url("https://pngimg.com/uploads/earth/earth_PNG39.png") !important;
     background-position:center ;
     background-size: 120%;
    }
 
-#saturn .planet {
+#saturn .planet{
     background-color: transparent !important;
     background-image: url("https://wallpapers.com/images/hd/realistic-saturn-image-png-saj-pyweaoxxuw630fcx.jpg") !important;
     background-position:center ;
@@ -36,7 +37,7 @@
     background-image: url("https://pngimg.com/d/mars_planet_PNG38.png") !important;
 }
 
-#sun {
+#sun{
     background-image: url("https://cdn.pixabay.com/photo/2018/01/26/13/04/sun-3108640_1280.png") !important;
     background-position:center ;
     background-size: 110%;
