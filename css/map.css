@@ -1,0 +1,90 @@
+#Asia:hover {
+    fill: #ffdc43;
+}
+
+#Africa:hover {
+    fill: #6890ff;
+}
+
+#NorthAmerica:hover {
+    fill: #cc7b12;
+}
+
+#SouthAmerica:hover {
+    fill: #9068ff;
+}
+
+#Europe:hover {
+    fill: #bb3a3a;
+    
+}
+
+#Australia:hover {
+    fill: #429246;
+  
+}
+
+/* Default and selected styles for continents */
+.continent {
+    cursor: pointer;
+    fill: #ececec; /* Default color */
+    transition: fill 0.3s;
+    pointer-events: all;
+}
+
+.continent.selected {
+    fill: #FFCC00; /* Example color for selected continent */
+    stroke: #000000; /* Optional: add a border */
+    stroke-width: 2px; /* Optional: adjust the border width */
+}
+#earth-map-container {
+    pointer-events: all;
+  }
+  
+/* Add this CSS to style the selected continent */
+.continent.selected {
+    fill: #777777; /* Example color for selected continent */
+    stroke: #000000; /* Optional: add a border */
+    stroke-width: 2px; /* Optional: adjust the border width */
+}
+
+#earth-map {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: 0 0; /* Ensure zooming happens from the top-left corner */
+  }
+  .zoomed {
+    transform: scale(1.5);
+  }
+  .map-container {
+    display: none; /* Initially hide the SVG map */
+}
+.selected {
+    fill: rgb(199, 199, 199); /* Highlight color for selected regions */
+}
+.default {
+    fill: #ececec; /* Default color for regions */
+}
+
+/* Country default state */
+.country {
+    fill: #000000; /* Default color */
+    stroke: black;
+    stroke-width: 0.5;
+}
+
+/* Hover and active states */
+.country:hover {
+    fill: #d0d0d0; /* Lighter color on hover */
+}
+
+.continent.highlighted {
+    border: 1px solid red; /* Example border for selected country */
+  }
+  
+  .country {
+    cursor: pointer;
+  }
+  
+  .country.selected {
+    border: 1px solid rgb(0, 0, 0); /* Example border for selected country */
+  }
