@@ -776,12 +776,6 @@ document.addEventListener('DOMContentLoaded', function () {
         earthOrbit.style.display = 'block';
       }
 
-      // Show the ring of Earth if it has one
-      var earthRing = earthElement.querySelector('.ring');
-      if (earthRing) {
-        earthRing.classList.add('clicked');
-      }
-
       turnBackButton.style.display = 'block'; // Show the turn back button
     }
   }
