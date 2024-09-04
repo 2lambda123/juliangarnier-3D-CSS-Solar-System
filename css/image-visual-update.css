@@ -1,0 +1,60 @@
+.planet{
+    background-size: cover;
+}
+
+#earth .planet{ 
+    background-image: url("https://pngimg.com/uploads/earth/earth_PNG39.png") !important;
+    background-position:center ;
+    background-size: 120%;
+   }
+
+#saturn .planet{
+    background-color: transparent !important;
+    background-image: url("https://wallpapers.com/images/hd/realistic-saturn-image-png-saj-pyweaoxxuw630fcx.jpg") !important;
+    background-position:center ;
+    background-size: 160%;
+}
+
+#jupiter .planet{
+    background-image: url("https://www.solarsystemscope.com/spacepedia/images/handbook/renders/jupiter.png") !important;
+}
+
+#venus .planet{
+    background-image: url("https://www.pngall.com/wp-content/uploads/11/Venus-PNG-Background.png") !important;
+}
+
+#uranus .planet{
+    background-image: url("https://wallpapers.com/images/hd/uranus-southern-hemisphere-png-98-5njxvfq1ofdr5lkx.png") !important;
+    background-position:center ;
+    background-size: 110%;
+}
+
+#neptune .planet{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/20/Neptune_cutout.png") !important;
+}
+
+#mars .planet{
+    background-image: url("https://pngimg.com/d/mars_planet_PNG38.png") !important;
+}
+
+#sun{
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/26/13/04/sun-3108640_1280.png") !important;
+    background-position:center ;
+    background-size: 110%;
+}
+
+#mercury .planet{
+    background-image: url("https://wallpapers.com/images/high/mercury-planet-surface-texture-b14c57xc5tcrfa6w.png") !important;
+    background-position:center ;
+    background-size: 105%;
+}
+
+#sun:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4);
+    transition: box-shadow 0.5s ease;
+  }
+
+.planet:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4) !important;
+    transition: box-shadow 0.5s ease;
+}

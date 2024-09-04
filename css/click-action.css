@@ -1,0 +1,92 @@
+.planet,
+.sun {
+  position: absolute;
+  image-rendering: pixelated;
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
+}
+
+/*planet and sun scaling*/
+.planet.clicked {
+  width: 800px;
+  height: 800px;
+  z-index: 999;
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
+  top: -2000% !important;
+  left: -500%;
+}
+
+.sun.clicked {
+  width: 800px;
+  height: 800px;
+  z-index: 999;
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+.saturn .ring {
+  position: absolute;
+}
+
+/*ring scaling in different modes(speed,size and distance)*/
+.scale-stretched #saturn .planet.clicked {
+  font-size: 100.8em;
+}
+
+.scale-d #saturn .planet.clicked {
+  font-size: 130.8em;
+}
+
+.scale-s #saturn .planet.clicked {
+  font-size: 450.8em;
+}
+
+#saturn.clicked .ring,
+#saturn.clicked .ring:after {
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+/*info-panel*/
+.info-panel {
+  font-size: large;
+  position: absolute;
+  background-color: rgba(248, 248, 248, 0.7);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  max-height: 300px;
+  overflow: auto;
+  transition: opacity 0.3s ease;
+  display: none;
+  z-index: 10000;
+}
+
+.info-panel h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-panel p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+}
+
+.info-panel span {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/*turn-back button*/
+#turn-back {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  display: none;
+}
