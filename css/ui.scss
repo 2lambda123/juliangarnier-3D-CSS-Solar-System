@@ -151,7 +151,7 @@ h1 {
 
 .slider {
   display: block;
-  width: 2px; 
+  width: 2px;
   height: 200px;
   background: white;
   border-radius: 1px;
@@ -159,18 +159,18 @@ h1 {
 
 input[type="range"] {
   appearance: slider-vertical;
-  width: 20px; 
+  width: 20px;
   height: 200px;
 }
 
 input::-webkit-slider-thumb {
-  appearance:none; 
+  appearance:none;
 }
 
 input::-webkit-slider-thumb:after {
   content: '';
   display: block;
-  width:20px; 
+  width:20px;
   height:20px;
   margin-top: -2px;
   margin-left: -14;

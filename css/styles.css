@@ -953,7 +953,7 @@ body {
 
 #saturn .ring           { animation-name:     shadow-saturn-ring; }
 
-@keyframes 
+@keyframes
 shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50, 0.45); opacity: .4; }
                   25%    { box-shadow: inset -5px   -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
                   25.01% { box-shadow: inset 5px    -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
@@ -1042,9 +1042,9 @@ shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50
   box-shadow: inset -12px 0 5px rgba(0, 0, 0, 0.5);
   /* RIGHT */ }
 
-/* --------------------------------------------------------------------------- DEBUG 
-.pos, 
-.planet, 
+/* --------------------------------------------------------------------------- DEBUG
+.pos,
+.planet,
 .orbit,
 .ring { animation-duration: 20s!important; }
 
